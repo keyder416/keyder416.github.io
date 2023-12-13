@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+.header li a{
+    color: #3399cc;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.header a:hover{
+    color: white;
+}
+
+@media (max-width:600px){
+    #ImgLogo{
+        width:60%;
+    }
+
+    #ImgLogo2{
+        width: 60%;
+    }
+}
+
+/* @media (max-width:1209px){
+    #ImgLogo2{
+        background-color: blue;
+    }
+} */
+
+/* @media (min-width:991px){
+    #ImgLogo2{
+        width: 10px;
+    }
+} */
